@@ -7,6 +7,68 @@
 
 h1 {
     font-family: 'Cookie', cursive;
+    font-weight: normal;
     font-size: 71px;
-    color: purple;
+    color: white;
+}
+
+header{
+    background-color: rgb(172, 208, 182);  
+    text-align: center; 
+    height: 60px;
+}
+
+#logo{
+    padding: 10px;
+}
+
+body  {
+  background-image: url("assets/04-BG.png");
+  text-align: center;
+}
+
+input#name{
+    font-family: 'Open Sans', sans-serif;
+    font-size: 18px;
+    width: 400px;
+    height: 45px;
+    margin-bottom: 20px;
+    border-radius: 7px;
+    border: 0px;
+    padding-left: 12px;
+}
+
+input#email{
+    font-family: 'Open Sans', sans-serif;
+    font-size: 18px;
+    width: 400px;
+    height: 45px;
+    margin-bottom: 20px;
+    border-radius: 7px;
+    border: 0px;
+    padding-left: 12px;
+}
+
+textarea#message{
+    font-family: 'Open Sans', sans-serif;
+    font-size: 18px;
+    width: 400px;
+    height: 100px;
+    margin-bottom: 20px;
+    border-radius: 7px;
+    padding-left: 12px;
+}
+
+input#botao{
+    background-color: rgb(113, 163, 151); 
+    color: white;
+    font-family: 'Open Sans', sans-serif;
+    font-weight: bold;
+    font-size: 22px;
+    width: 400px;
+    height: 45px;
+    margin-bottom: 20px;
+    border-radius: 7px;
+    border: 0px;
+    padding-left: 12px;
 }
