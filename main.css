@@ -10,21 +10,23 @@ h1 {
     font-weight: normal;
     font-size: 71px;
     color: white;
+    margin-bottom: 15px;
 }
 
 header{
     background-color: rgb(172, 208, 182);  
     text-align: center; 
-    height: 60px;
+    height: 70px;
 }
 
 #logo{
-    padding: 10px;
+    padding: 15px;
 }
 
 body  {
   background-image: url("assets/04-BG.png");
   text-align: center;
+  display: contents;
 }
 
 input#name{
@@ -46,7 +48,7 @@ input#email{
     margin-bottom: 20px;
     border-radius: 7px;
     border: 0px;
-    padding-left: 12px;
+    padding-left: 15px;
 }
 
 textarea#message{
@@ -56,7 +58,8 @@ textarea#message{
     height: 100px;
     margin-bottom: 20px;
     border-radius: 7px;
-    padding-left: 12px;
+    padding-top: 7px;
+    padding-left: 15px;
 }
 
 input#botao{
@@ -65,10 +68,10 @@ input#botao{
     font-family: 'Open Sans', sans-serif;
     font-weight: bold;
     font-size: 22px;
-    width: 400px;
-    height: 45px;
+    width: 415px;
+    height: 55px;
     margin-bottom: 20px;
     border-radius: 7px;
     border: 0px;
-    padding-left: 12px;
+    padding-left: 15px;
 }
