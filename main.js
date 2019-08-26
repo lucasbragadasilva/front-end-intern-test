@@ -25,15 +25,15 @@
     const messageLength = messageValue.length;
 
     //Validação
-      if(nameLength === 0){
+      if(nameValue == null || nameValue == "" || nameLength == 0){
         window.alert('Por favor, preencha o campo nome!');
-        document.getElementById('name').focus();
-      } else if(emailLength === 0) {
+        nameInput.focus();
+      } else if(emailValue.indexOf("@") == -1 || emailValue.indexOf(".") == -1 || emailValue == "" || emailValue == null || emailLength == 0) {
         window.alert('Por favor, preencha o campo email!');
-        document.getElementById('email').focus();
-      } else if(messageLength === 0) {
+        emailInput.focus();
+      } else if(messageValue == null || messageValue == "" || messageLength == 0) {
         window.alert('Por favor, preencha o campo mensagem!');
-        document.getElementById('message').focus();
+        messageInput.focus();
       } else {
         window.alert(
           `Nome: ${nameValue} (${nameLength} caracteres)

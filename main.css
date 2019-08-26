@@ -60,6 +60,7 @@ textarea#message{
     border-radius: 7px;
     padding-top: 7px;
     padding-left: 15px;
+    resize: none;
 }
 
 input#botao{
